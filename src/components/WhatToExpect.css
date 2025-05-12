@@ -1,0 +1,60 @@
+.what-to-expect{
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.bg-video-two{
+    position: absolute;
+    right:0;
+    top: 0vw;
+    z-index: -2;
+    width: 200vw;
+    object-fit: cover;
+}
+.text-cont-wte{
+    background-color: rgba(15, 5, 5,0.7);
+    height: 80vw;
+    padding-top: 55vw;
+}
+.text-cont-wte h3{
+    font-size: 6vw;
+    width: 60vw;
+    margin-left: 20vw;
+}
+.text-cont-wte p{
+    margin-top: 2vw;
+    font-size: 1.7vw;
+    margin-left: 25vw;
+    width: 50vw;
+}
+@media only screen and (max-width:600px){
+    .what-to-expect{
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }
+    .bg-video-two{
+        position: absolute;
+        right:0;
+        top: 0vw;
+        z-index: -2;
+        width: 200vw;
+        object-fit: cover;
+    }
+    .text-cont-wte{
+        background-color: rgba(15, 5, 5,0.7);
+        height: 80vw;
+        padding-top: 60vw;
+    }
+    .text-cont-wte h3{
+        font-size: 6vw;
+        width: auto;
+        margin-left: 0;
+    }
+    .text-cont-wte p{
+        margin-top: 2vw;
+        font-size: 3vw;
+        margin-left: 0;
+        width: auto;
+    }
+}

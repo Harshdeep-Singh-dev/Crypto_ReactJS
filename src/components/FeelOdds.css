@@ -1,0 +1,81 @@
+.feel-odds{
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+
+    margin-top: 10vw;
+    height: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bg-video-four{
+    position: absolute;
+    right:0;
+    top: 0vw;
+    z-index: -2;
+    width: 200vw;
+    object-fit: cover;
+}
+.feel-odds-fo{
+    background-color: rgba(15, 5, 5,0.7);
+    height: 80vw;
+    width: 100vw;
+    padding-top: 20vw;
+}
+.feel-odds-fo h3{
+    font-size: 9vw;
+    width: auto;
+    margin-left: 0;
+    line-height: 7vw;
+}
+.feel-odds-fo p{
+    margin-top: 4vw;
+    font-size: 1.75vw;
+    width: 57vw;
+    margin-left: 21.50vw;
+    line-height: 4vw;
+}
+@media only screen and (max-width:600px){
+    .feel-odds{
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+
+        margin-top: 30vw;
+        height: 120vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .bg-video-four{
+        position: absolute;
+        right:0;
+        top: 0vw;
+        z-index: -2;
+        width: 200vw;
+        object-fit: cover;
+    }
+    .feel-odds-fo{
+        background-color: rgba(15, 5, 5,0.7);
+        height: 120vw;
+        width: 100vw;
+        padding-top: 25vw;
+    }
+    .feel-odds-fo h3{
+        font-size: 12vw;
+        width: auto;
+        margin-left: 0;
+        line-height: 10vw;
+    }
+    .feel-odds-fo p{
+        margin-top: 8vw;
+        font-size: 3vw;
+        width: 57vw;
+        margin-left: 21.50vw;
+        line-height: 4vw;
+    }
+}
+

@@ -1,0 +1,173 @@
+.boxes{
+    margin-top: 10vw;
+    /* width: 100vw; */
+}
+.boxes h4{
+    font-size: 5.5vw;
+    width: 50vw;
+    margin-left:7vw;
+    line-height: 5vw;
+    text-align: left;
+}
+
+.box{
+    border: 1px solid grey;
+    min-width: 30vw;
+    min-height: 30vw;
+    /* margin-left: 5vw; */
+    margin-top: 5vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vw;
+}
+.box1{
+    margin-left: 5vw;
+}
+.container-for-boxes{
+    display: flex;
+    overflow-x: auto; /* Enables horizontal scroll */
+    scroll-snap-type: x mandatory; /* Optional: makes scroll snap to items */
+    -webkit-overflow-scrolling: touch; /* Smooth scroll on mobile */
+    gap: 2vw; /* Optional: space between boxes */
+    padding: 2vw;
+
+        scrollbar-width: none;      /* Firefox */
+    -ms-overflow-style: none;   /* Internet Explorer/Edge */
+}
+.box h5{
+    font-size: 2.5vw;
+    text-transform: uppercase;
+    letter-spacing: 0.3vw;
+}
+.box #value{
+    font-size: 2vw;
+    margin-top: 1vw;
+    color: lightgreen;
+}
+.box button{
+    background-color: black;
+    color: white;
+    width: 15vw;
+    height: 4vw;
+    border: 1px solid white;
+    transition: 0.2s ease-in;
+
+    margin-top: 3vw;
+    font-size: 1.5vw;
+}
+.box button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.box img{
+    margin-top: 4vw;
+    height: 15vw;
+    width: 15vw;
+    animation: moveUpDown 2s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-1vw); /* Adjust this value as needed */
+    }
+}
+
+.box2 img{
+    height: 15vw;
+    width: 12vw;
+}
+
+
+@media only screen and (max-width:600px){
+    .boxes{
+        margin-top: 20vw;
+        width: 100vw;
+    }
+    .boxes h4{
+        font-size: 10vw;
+        width: 80vw;
+        margin-left:10vw;
+        line-height: 13vw;
+        text-align: center;
+    }
+    .container-for-boxes{
+        display: flex;
+        overflow-x: auto; /* Enables horizontal scroll */
+        scroll-snap-type: x mandatory; /* Optional: makes scroll snap to items */
+        -webkit-overflow-scrolling: touch; /* Smooth scroll on mobile */
+        /* gap: 2vw; /* Optional: space between boxes 
+        padding: 2vw; */
+    
+            scrollbar-width: none;      /* Firefox */
+        -ms-overflow-style: none;   /* Internet Explorer/Edge */
+    }
+    .box{
+        border: 1px solid grey;
+        min-width: 90vw;
+        min-height: 115vw;
+        margin-left: 5vw;
+
+        margin-top: 8vw;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 8vw;
+    }
+    .box h5{
+        font-size: 5vw;
+        text-transform: uppercase;
+        letter-spacing: 0.7vw;
+    }
+    .box #value{
+        font-size: 4.5vw;
+        margin-top: 4vw;
+        color: lightgreen;
+    }
+    .box button{
+        position: static;
+
+
+        background-color: black;
+        color: white;
+        font-size: 4.5vw;
+        font-weight: 700;
+        width: 47.45vw;
+        height: 13.52vw;
+        border: 1px solid white;
+        margin-top: 10vw;
+        transition: 0.2s ease-in;
+    }
+    .box button:hover{
+        color: black;
+        background-color: white;
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+    .box img{
+        margin-top: 4vw;
+        height: 60vw;
+        width: 60vw;
+        animation: moveUpDown 2s ease-in-out infinite;
+    }
+
+    @keyframes moveUpDown {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-2vw); /* Adjust this value as needed */
+        }
+    }
+    .box2 img{
+        height: 60vw;
+        width: 48vw;
+    }
+}

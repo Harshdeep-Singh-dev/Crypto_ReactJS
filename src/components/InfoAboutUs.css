@@ -1,0 +1,60 @@
+.info-about-us{
+    height: 130vw;
+    background-color: black;
+    padding-top: 10vw;
+    
+}
+.info-about-us h4{
+    text-transform: uppercase;
+    font-size: 2vw;
+    letter-spacing: 0.3vw;
+    margin-left: 30vw;
+}
+.info-about-us h4 span{
+    font-size: 2vw;
+}
+.info-about-us p{
+    margin-top: 13vw;
+    font-size:5.3vw;
+    line-height: 7.5vw;
+    width: 50vw;
+    margin-left: 25vw;
+}
+.info-about-us p span{
+    font-size:5.3vw;
+    color: rgb(68,68,68);
+}
+@media only screen and (max-width: 600px){
+    .info-about-us{
+        height: 120vw;
+        background-color: black;
+        padding: 13vw;
+        height: auto;
+    }
+    .info-about-us h4{
+        text-transform: uppercase;
+        font-size: 4vw;
+        letter-spacing: 0.3vw;
+        margin-left: 0;
+    }
+    .info-about-us p{
+        margin-top: 13vw;
+        font-size:6.3vw;
+        line-height: 9vw;
+        width: auto;
+        margin-left: 0;
+    }
+    .info-about-us p span{
+        font-size:8vw;
+    }
+    .info-about-us h4 span{
+        font-size: 4vw;
+    }
+
+}
+
+.info-about-us h4,
+.info-about-us p {
+    color: #555; /* Start as grey */
+    transition: color 0.1s linear;
+}
