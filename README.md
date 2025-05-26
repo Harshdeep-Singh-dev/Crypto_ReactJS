@@ -1,3 +1,5 @@
+LIVE DEMO : https://crypto-react-js-9uio.vercel.app/
+
 A Crypto Trading Platform made using ReactJS.
 
 A UI/UX oriented cryptocurrency trading and investing website layout aimed to streamline buying crypto currency and introduce masses to web3 technologies.
